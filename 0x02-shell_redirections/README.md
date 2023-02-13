@@ -49,17 +49,17 @@ This readme contails the functions of all the scripts/files i n this directory.
  22-users_and_homes: Displays all users and their home directories, sorted by users, based on the /etc/passwd file.
  
  100-empty_casks: Finds all empty files and directories in the current directory and all sub-directories, with the following criteria; 
- Only the names of the files and directories should be displayed (not the entire path)
-                      Hidden files should be listed
-                      One file name per line
+ Only the names of the files and directories should be displayed (not the entire path) 
+                      Hidden files should be listed, 
+                      One file name per line, 
                       The listing should end with a new line.
  
  101-gifs: Lists all the files with a .gif extension in the current directory and all its sub-directories, with the following criteria;
-                       Hidden files should be listed
-                       Only regular files (not directories) should be listed
-                       The names of the files should be displayed without their extensions
-                       The files should be sorted by byte values, but case-insensitive (file aaa should be listed before file bbb, file .b should be listed before file                                                   a, and file Rona should be listed after file jay)
-                       One file name per line
+                       Hidden files should be listed, 
+                       Only regular files (not directories) should be listed, 
+                       The names of the files should be displayed without their extensions, 
+                       The files should be sorted by byte values, but case-insensitive (file aaa should be listed before file bbb, file .b should be listed before file                                                   a, and file Rona should be listed after file jay), 
+                       One file name per line, 
                        The listing should end with a new line.
  
  102-acrostic: Decodes acrostics that use the first letter of each line, with the decoded message ending with a new line.
